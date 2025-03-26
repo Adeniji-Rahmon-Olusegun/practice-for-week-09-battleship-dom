@@ -1,1 +1,40 @@
 /* Your code here */
+
+
+h1 {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    grid-template-rows: repeat(9, 50px);
+    gap: 2px;
+    list-style: none;
+    padding: 0;
+    margin-left: 400px;
+}
+
+.grid li {
+    width: 45px;
+    height: 30px;
+    background: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+  
+.disabled {
+    pointer-events: none;
+}
+
+.score-board {
+    background-color: burlywood;
+    height: 20px;
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-right: 400px;
+}
